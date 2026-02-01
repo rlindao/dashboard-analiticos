@@ -8,7 +8,6 @@
     "@testing-library/react": "^16.3.2",
     "@testing-library/user-event": "^13.5.0",
     "@types/jest": "^27.5.2",
-    "@types/node": "^16.18.126",
     "@types/react": "^19.2.10",
     "@types/react-dom": "^19.2.3",
     "axios": "^1.13.4",
@@ -25,8 +24,11 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
+  "homepage": ".",
   "eslintConfig": {
     "extends": [
       "react-app",
@@ -44,5 +46,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@types/node": "^25.2.0",
+    "gh-pages": "^6.3.0"
   }
 }
