@@ -148,9 +148,9 @@ const CloudFile: React.FC<CloudFileProps> = ({ onDataLoad }) => {
         <div className="tips">
           <h4>💡 Consejos:</h4>
           <ul>
-            <li><strong>GitHub:</strong> Haz clic en "Raw" para obtener la URL directa</li>
-            <li><strong>Google Drive:</strong> Comparte > Publicar en la web > Copiar enlace</li>
-            <li><strong>Dropbox:</strong> Genera un enlace compartido y reemplaza "dl=0" por "dl=1"</li>
+            <li><strong>GitHub:</strong> Haz clic en &quot;Raw&quot; para obtener la URL directa</li>
+            <li><strong>Google Drive:</strong> Comparte &gt; Publicar en la web &gt; Copiar enlace</li>
+            <li><strong>Dropbox:</strong> Genera un enlace compartido y reemplaza &quot;dl=0&quot; por &quot;dl=1&quot;</li>
           </ul>
         </div>
       </div>
