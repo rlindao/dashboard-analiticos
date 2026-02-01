@@ -28,7 +28,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://[TU-USERNAME].github.io/dashboard-analitico",
+  "homepage": ".",
   "eslintConfig": {
     "extends": [
       "react-app",
